@@ -45,3 +45,4 @@ Minimal Example of Digital Archive on Cloudflare using Workers, R2, D1
     - published_at (item itself)
     - created_at (data)
     - updated_at
+  - DrizzleORM
