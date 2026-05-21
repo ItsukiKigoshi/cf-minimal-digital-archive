@@ -1,7 +1,7 @@
 # cf-minimal-digital-archive
 Minimal Example of Digital Archive on Cloudflare using Workers, R2, D1
 
-## Frontend
+## Web Frontend
 - Workers
 ### Pages
 - Landing Page
@@ -17,14 +17,14 @@ Minimal Example of Digital Archive on Cloudflare using Workers, R2, D1
 - SvelteKit
 - Hono
 
-## Backend
+## Web API
 - Workers
 
-### Web API
+### Endpoints
+- Metadata Search
 - Serving IIIF Image API (Level 0; Pre-tiled images +`info.json` )
 - Serving IIIF Presentation API (`manifest.json`)
-- Metadata Search
-- CRUD + Images Management called by Dashboard
+- CRUD + Images Management called by Dashboard with authentication
  
 ### Language/Framework
 - Hono
