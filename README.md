@@ -10,7 +10,7 @@ Minimal Example of Digital Archive on Cloudflare using Workers, R2, D1
 - Management Dashboard
   - Authorised Login: Better Auth
  
-- [ ] On the first place, just using plain HTML tags (with no <div>!!)
+- [ ] On the first place, just using plain HTML tags (with no \<div\>!!)
   - This will be a firm basis of the semantic frontend design in the future
 
 ### Framework
@@ -48,4 +48,6 @@ Minimal Example of Digital Archive on Cloudflare using Workers, R2, D1
     - published_at (item itself)
     - created_at (data)
     - updated_at
+    - status: public, metadata_avalable, private
+    - Donor (寄贈元)
   - DrizzleORM
