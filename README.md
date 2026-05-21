@@ -3,7 +3,7 @@ Minimal Example of Digital Archive on Cloudflare using Workers, R2, D1
 
 ## Frontend
 - Workers
-
+### Pages
 - Landing Page
 - Search
 - Item Details
@@ -20,11 +20,11 @@ Minimal Example of Digital Archive on Cloudflare using Workers, R2, D1
 ## Backend
 - Workers
 
-- Web API
-  - Serving IIIF Image API (Level 0; Pre-tiled images +`info.json` )
-  - Serving IIIF Presentation API (`manifest.json`)
-  - Metadata Search
-  - CRUD + Images Management called by Dashboard
+### Web API
+- Serving IIIF Image API (Level 0; Pre-tiled images +`info.json` )
+- Serving IIIF Presentation API (`manifest.json`)
+- Metadata Search
+- CRUD + Images Management called by Dashboard
  
 ### Language/Framework
 - Hono
